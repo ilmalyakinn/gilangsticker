@@ -1,0 +1,33 @@
+# Robots.txt for Gilang Sticker & Branding
+# Allows all search engines to crawl the website
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /layanan.html
+Allow: /portofolio.html
+Allow: /kontak.html
+Allow: /foto/
+
+# Disallow URLs that shouldn't be indexed
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /*?*sort=
+Disallow: /*?*page=
+
+# Crawl delay (in seconds) - optional
+Crawl-delay: 1
+
+# Specify sitemap location
+Sitemap: https://gilangsticker.com/sitemap.xml
+
+# Google specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing specific rules
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
